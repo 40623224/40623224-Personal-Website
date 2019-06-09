@@ -1,0 +1,101 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>40623224 Personal Website</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+<style>
+img {
+    border: 2px solid blue;
+}
+</style>
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>2019 Fall 40623224 Personal Website</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Introduction.html'>Introduction</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a><li><a href='Mid-term operation.html'>Mid-term operation</a><li><a href='Weekly.html'>Weekly</a><li><a href='Python Manual.html'>Python Manual</a><li><a href='OnShape Manual.html'>OnShape Manual</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul><li><a href='Weekly Progress.html'>Weekly Progress</a><ul><li><a href='Week1-9.html'>Week1-9</a><li><a href='Week10-18.html'>Week10-18</a></li></ul><li><a href='Operation Demo.html'>Operation Demo</a><ul><li><a href='如何建立可攜程式系統.html'>如何建立可攜程式系統</a><li><a href='Start.bat製作.html'>Start.bat製作</a><li><a href='Stop.bat製作.html'>Stop.bat製作</a><li><a href='Kungit 製作.html'>Kungit 製作</a><li><a href='Kungit使用教學.html'>Kungit使用教學</a><li><a href='GitExtensions 使用教學.html'>GitExtensions 使用教學</a></li></ul><li><a href='Lesson notes.html'>Lesson notes</a></li></ul></nav><section>GitExtensions 使用教學 << <a href='GitExtensions 使用教學.html'>Previous</a> <br /><h1>Lesson notes</h1>
+<p><strong>圖片網址的BUG:</strong></p>
+<p>原本的:</p>
+<p>page = [w.replace('/images/', './../images/') for w in page]<br>page = [w.replace('/downloads/', './../downloads/') for w in page]</p>
+<p>修改的:</p>
+<p>page = [w.replace('src="./../images/', 'src="./../images/') for w in page]<br>page = [w.replace('href="./../downloads/', 'href="./../downloads/') for w in page]</p>
+<p>對於頁面中的w進行更換，將 /images/ 換為 ./../images/ ，也就是<span>標籤的src 屬性</span><span>值是圖像文件的URL，引用該圖像的文件的絕對路徑或相對路徑，而URL 是指向站點內的文件。</span></p>
+<p>對於頁面中的w進行更換，將/downloads/ 換為 ./../downloads/，也就是<span>標籤的</span><span>href 是等號右邊用來放置要前往的連結網址，而download 屬性規定被下載的超鏈接目標。</span></p>
+<p>兩個都是以 content 為基準的相對目錄設定。</p>
+<hr>
+<p><strong>git 常用指令</strong></p>
+<p>git add .&nbsp; 新增所有改版內容</p>
+<p>git commit -m "提交訊息, 用來辨識版本" 在近端提交改版內容</p>
+<p>git push&nbsp; 將近端改版內容推送到遠端</p>
+<p>git pull&nbsp; 拉下遠端新版本內容, 在 fossil scm 使用 fossil update</p>
+<p>git log&nbsp; 查驗 git 提交推送紀錄</p>
+<p>git status&nbsp; 查驗狀態</p>
+<p>git 新增提交推送的身分綁定</p>
+<p>以 40623224@gm.nfu.edu.tw 註冊帳號為 40623224 為例:</p>
+<p>git config --global user.name "40623224"</p>
+<p>git config --global user.email "40623224@gm.nfu.edu.tw"</p>
+<p>若網路直接連線過慢, 可以透過 proxy 執行 git</p>
+<p>git config --global http.proxy http://proxy.kmol.info:3128</p>
+<p>以上的 git config 會將設定存入 Y:/home/.gitconfig 檔案中</p>
+<p>刪除近端與遠端的 Git 分支.</p>
+<p>To delete a local branch</p>
+<p>git branch -D the_local_branch</p>
+<p>To remove a remote branch</p>
+<p>git push origin :the_remote_branch</p>
+<p>or</p>
+<p>git push origin --delete the_remote_branch</p>
+<p><strong>把Onshape</strong><span><strong>吃下去，甚至學習做得更好吃</strong>_______柯柏</span></p>
+<p><img src="./../images/6.jpg" width="500" height="375" alt=""></p><br />GitExtensions 使用教學 << <a href='GitExtensions 使用教學.html'>Previous</a> </section></div></body></html>
