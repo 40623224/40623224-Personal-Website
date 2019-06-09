@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018215848.1" a="E"><vh>2019</vh>
+<v t="leo.20181018215848.1"><vh>2019</vh>
 <v t="leo.20190531145645.1" a="E"><vh>10</vh>
 <v t="leo.20190531145645.2"><vh>1</vh></v>
 </v>
@@ -48,35 +48,6 @@
 </v>
 <v t="leo.20190531150152.1"><vh>17</vh>
 <v t="leo.20181018220314.2"><vh>封面投影片內容</vh></v>
-</v>
-</v>
-<v t="leo.20190531150410.1"><vh>2018</vh>
-<v t="leo.20190531150410.2" a="E"><vh>1</vh>
-<v t="leo.20190531150410.3"><vh>1</vh></v>
-</v>
-<v t="leo.20190531150410.4"><vh>2</vh>
-<v t="leo.20190531150410.5"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150410.6" a="E"><vh>3</vh>
-<v t="leo.20190531150410.7"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150410.8"><vh>4</vh>
-<v t="leo.20190531150410.9"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150410.10" a="E"><vh>5</vh>
-<v t="leo.20190531150410.11"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150410.12"><vh>6</vh>
-<v t="leo.20190531150410.13"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150410.14"><vh>7</vh>
-<v t="leo.20190531150410.15"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150410.16"><vh>8</vh>
-<v t="leo.20190531150410.17"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150410.18"><vh>9</vh>
-<v t="leo.20190531150410.19"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
@@ -186,9 +157,9 @@ vertical: body pane on the botton</t>
 ###  Product Collaboration Design
 
 
-* [個人倉儲](https://github.com/mdecadp2018/site-40623224)
+* [個人倉儲](https://github.com/40623224/40623224-Personal-Website)
 
-* [個人網站](https://mdecadp2018.github.io/site-40623224/content/)
+* [個人網站](https://40623224.github.io/40623224-Personal-Website/content/Introduction.html)
 
 * [BG4倉儲](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4)
 
@@ -583,182 +554,6 @@ make.start()
 
 
 						
-</t>
-<t tx="leo.20190531150410.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-						
-</t>
-<t tx="leo.20190531150410.10">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.11">#  W5
-
-* 設計意圖指在設計進行前, 必須完成之專案目的與需求確認
-
-* 幾何外型越複雜, 越需要在零件設計之前做好設計意圖的確認
-
-心得:第五週進入到Onshape第二週，這一週開始必須要了解到自己的設計意圖是什麼，還有設定尺寸以及如何去約束他，並且要正確和精準。
-
-
-
-</t>
-<t tx="leo.20190531150410.12">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.13">#  W6
-
-心得:瞭解老師給予的Onshape教材中的一些專屬名詞，把不懂的單字記錄下來，如果遇到這個單字時能夠迅速找到它的中文解釋，以及如何更新最新的CMSimfly，不然更新自己網站的內容時，因為某些原因導致  https://localhost:8443 一直出現錯誤而無法使用，還有討論到有關人事時地物等關鍵內容的架構安排。
-
-
-
-</t>
-<t tx="leo.20190531150410.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.15">#  W7
-
-心得:由於github在這禮拜突然故障，所以老師找出其他方法解決並探討，起初發現github沒辦法登入，本來以為自己推送成功，後來跑去看自己的倉儲才看到自己根本沒有推送東西上去，聽到老師說才知道是壞掉的問題，老師推論說github是因為在更換伺服器所以才暫時性無法使用，如果不是這個問題的話可能之後都要讓我們使用Fossli SCM 。
-
-
-
-</t>
-<t tx="leo.20190531150410.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.17">#  W8
-
-心得:這一週課程是讓我們題交推送之前尚未完成的Week，並知道自己學到哪裡，然而期中考過後準備分組課程，一組以六個人為單位，這八週，從學習github到繪製Onshape，再到可以熟練繪製Onshape，然而了解一些畫法，找出因應方法，接下來就是開始準備期中過後的課程了~
-
-
-
-</t>
-<t tx="leo.20190531150410.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.19">#  W9
-
-期中考週~
-
-六人分組
-
-期中自評:83
-
-
-
-</t>
-<t tx="leo.20190531150410.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.3">#  W1
-
-心得:第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。</t>
-<t tx="leo.20190531150410.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.5">#  W2
-
-心得:第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。
-
-
-
-</t>
-<t tx="leo.20190531150410.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.7">#  W3
-
-2018/10/24中秋節放假~
-
-石頭日式無煙燒肉
-
-散播歡樂散播愛
-
-
-
-</t>
-<t tx="leo.20190531150410.8">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150410.9">#  W4
-
-心得:第四週開始學習Onshape，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。
-
-
-
 </t>
 <t tx="leo.20190531150542.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
