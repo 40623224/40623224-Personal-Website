@@ -287,7 +287,7 @@ make.start()
 <t tx="leo.20180827201621.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-2018 Fall 分組網際簡報
+40623224 Personal Reveal
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
