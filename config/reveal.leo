@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018215848.1"><vh>2019</vh>
+<v t="leo.20181018215848.1" a="E"><vh>2019</vh>
 <v t="leo.20190531145645.1" a="E"><vh>10</vh>
 <v t="leo.20190531145645.2"><vh>1</vh></v>
 </v>
@@ -40,14 +40,11 @@
 <v t="leo.20190531150148.1" a="E"><vh>14</vh>
 <v t="leo.20181018220035.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190531150150.1"><vh>15</vh>
+<v t="leo.20190531150150.1" a="E"><vh>15</vh>
 <v t="leo.20181018220228.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190531150151.1"><vh>16</vh>
+<v t="leo.20190531150151.1" a="E"><vh>16</vh>
 <v t="leo.20181018220237.2"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20190531150152.1"><vh>17</vh>
-<v t="leo.20181018220314.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
@@ -438,25 +435,34 @@ make.start()
 
 
 </t>
-<t tx="leo.20181018220228.2">#  W15
+<t tx="leo.20181018220228.2">##  W15
 
+1.增加期末網站手足球工程圖最終版本
 
+* [手足球工程圖最終版本](https://cad.onshape.com/documents/33f57d6f49b417896c80e2c7/w/0cd8abcf32893d42754458f2/e/d22ccaab6809ca4ed2ed0018)
 
+2.增加零組件零件部分組裝圖展示過程
 
+* [零件部分組裝圖展示過程](https://youtu.be/qHQmoM1uQS4)
 
-</t>
-<t tx="leo.20181018220237.2">#  W16
+3.增加零組件爆炸圖展示過程
 
+* [零件部分爆炸圖展示過程](https://youtu.be/PigXInnJzQo)</t>
+<t tx="leo.20181018220237.2">##  W16
 
+1.增加零件 BOM下載連結
 
+* [零組件下載連結最終版本](https://cad.onshape.com/documents/33f57d6f49b417896c80e2c7/w/0cd8abcf32893d42754458f2/e/9b00c66430df4f644fd2d6b8)
 
+版本:Onshape(可以自行利用Onshape轉換成其他畫圖軟體的檔案，例如:Solidworks)
 
-</t>
-<t tx="leo.20181018220314.2">#  W17
+2.增加送球機構的初步構想Final version
 
+* [送球機構的初步構想Final version](https://youtu.be/Xi4Qw-XutsM)
 
+3.期末報告final report製作
 
-
+* [final report](https://40623224.github.io/40623224-Personal-Website/downloads/report.pdf)
 
 </t>
 <t tx="leo.20190531145645.1">&lt;section data-markdown&gt;
@@ -534,17 +540,6 @@ make.start()
 						
 </t>
 <t tx="leo.20190531150151.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20190531150152.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
