@@ -206,15 +206,16 @@ background-color: white;
 width: 195px;
 }
 body {
-  background-image: url("https://04imgmini.eastday.com/mobile/20190222/20190222203609_b4019fa1c5c835f23c94170856ef6f77_16.gif"),
-                               url("https://hostr.co/file/xm4l925W71d9/2.gif"),
+  background-image: url("https://cdn2.ettoday.net/images/3403/d3403825.gif"),
+                               url("https://imgur.com/zrGYtTM.gif"),
+							   url("https://thumbs.gfycat.com/EmbellishedElegantEuropeanfiresalamander-size_restricted.gif"),
 							   url("http://cfile232.uf.daum.net/image/152E2C444F49D32A032428"),
                                linear-gradient(to left, rgba(77, 31, 0, 1),  rgba(255, 255, 255, 0));
   margin-bottom: 120px;
   #background-size:100%;
-  background-position: top 0px right 0px ,top 100% right 0%;
-  background-repeat: no-repeat ,no-repeat ,repeat ;
-  background-attachment :fixed, fixed, scroll;
+  background-position: top 0px right 0px ,top 100% right 0% ,top 45% right 0%;
+  background-repeat: no-repeat ,no-repeat ,no-repeat ,repeat ;
+  background-attachment :fixed, fixed, fixed, scroll;
 }
 
 
