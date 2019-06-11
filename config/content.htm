@@ -1,14 +1,4 @@
-<h1>Introduction</h1>
-<p>2019 Spring 40623224 Personal Website</p>
-<p><img src="/images/介紹.gif" width="550" height="310" alt=""></p>
-<p>Warehousing: <a href="https://github.com/40623224/40623224-Personal-Website">https://github.com/40623224/40623224-Personal-Website</a></p>
-<p>Reveal:&nbsp;<a href="https://40623224.github.io/40623224-Personal-Website/reveal/">https://40623224.github.io/40623224-Personal-Website/reveal/</a></p>
-<p>cd2019b-task1-2019cdb_t1_g4 Warehousing : <a href="https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4">https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4</a></p>
-<p>cd2019b-task1-2019cdb_t1_g4 Website :&nbsp;<a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/index.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/index.html</a></p>
-<p>協同產品設計實習課程 2019 Spring 乙班期末協同報告倉儲 : <a href="https://github.com/scrum-1/cd2019b">https://github.com/scrum-1/cd2019b</a></p>
-<p>協同產品設計實習課程 2019 Spring 乙班期末協同報告Website : <a href="http://cpgx.kmol.info/cd2019b/content/index.html">http://cpgx.kmol.info/cd2019b/content/index.html</a></p>
-<p>舊 Warehousing: <a href="https://github.com/mdecadp2018/site-40623224">https://github.com/mdecadp2018/site-40623224</a></p>
-<p>舊 Reveal:&nbsp;<a href="https://mdecadp2018.github.io/site-40623224/reveal/">https://mdecadp2018.github.io/site-40623224/reveal/</a></p><h1>Weekly Progress</h1>
+<h1>Introduction</h1><p>2019 Spring 40623224 Personal Website</p><p><img src="/images/介紹.gif" width="550" height="310" alt=""></p><p>Warehousing: <a href="https://github.com/40623224/40623224-Personal-Website">https://github.com/40623224/40623224-Personal-Website</a></p><p>Reveal:&nbsp;<a href="https://40623224.github.io/40623224-Personal-Website/reveal/">https://40623224.github.io/40623224-Personal-Website/reveal/</a></p><p>cd2019b-task1-2019cdb_t1_g4 Warehousing : <a href="https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4">https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4</a></p><p>cd2019b-task1-2019cdb_t1_g4 Website :&nbsp;<a href="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/index.html">https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/index.html</a></p><p>協同產品設計實習課程 2019 Spring 乙班期末協同報告倉儲 : <a href="https://github.com/scrum-1/cd2019b">https://github.com/scrum-1/cd2019b</a></p><p>協同產品設計實習課程 2019 Spring 乙班期末協同報告Website : <a href="http://cpgx.kmol.info/cd2019b/content/index.html">http://cpgx.kmol.info/cd2019b/content/index.html</a></p><p>舊 Warehousing: <a href="https://github.com/mdecadp2018/site-40623224">https://github.com/mdecadp2018/site-40623224</a></p><p>舊 Reveal:&nbsp;<a href="https://mdecadp2018.github.io/site-40623224/reveal/">https://mdecadp2018.github.io/site-40623224/reveal/</a></p><p><img src="/images/筆記2.gif" width="600" height="338" alt=""></p><h1>Weekly Progress</h1>
 <h2>Week1-9</h2>
 <p><strong>Week4:</strong></p>
 <p>git clone一個乾淨的倉儲，推送到BG4的網站</p>
@@ -415,4 +405,36 @@
 <p><img alt="" height="609" src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/images/24-w10-19.png" width="800"></p>
 <h1>Final report</h1>
 <p><a href="/downloads/report.pdf">40623224 Final report.pdf</a></p>
-<h1>Lesson notes</h1><p><strong>圖片網址的BUG:</strong></p><p>原本的:</p><p>page = [w.replace('/images/', './../images/') for w in page]<br>page = [w.replace('/downloads/', './../downloads/') for w in page]</p><p>修改的:</p><p>page = [w.replace('src="/images/', 'src="./../images/') for w in page]<br>page = [w.replace('href="/downloads/', 'href="./../downloads/') for w in page]</p><p>對於頁面中的w進行更換，將 /images/ 換為 ./../images/ ，也就是<span>標籤的src 屬性</span><span>值是圖像文件的URL，引用該圖像的文件的絕對路徑或相對路徑，而URL 是指向站點內的文件。</span></p><p>對於頁面中的w進行更換，將/downloads/ 換為 ./../downloads/，也就是<span>標籤的</span><span>href 是等號右邊用來放置要前往的連結網址，而download 屬性規定被下載的超鏈接目標。</span></p><p>兩個都是以 content 為基準的相對目錄設定。</p><hr><p><strong>git 常用指令</strong></p><p>git add .&nbsp; 新增所有改版內容</p><p>git commit -m "提交訊息, 用來辨識版本" 在近端提交改版內容</p><p>git push&nbsp; 將近端改版內容推送到遠端</p><p>git pull&nbsp; 拉下遠端新版本內容, 在 fossil scm 使用 fossil update</p><p>git log&nbsp; 查驗 git 提交推送紀錄</p><p>git status&nbsp; 查驗狀態</p><p>git 新增提交推送的身分綁定</p><p>以 40623224@gm.nfu.edu.tw 註冊帳號為 40623224 為例:</p><p>git config --global user.name "40623224"</p><p>git config --global user.email "40623224@gm.nfu.edu.tw"</p><p>若網路直接連線過慢, 可以透過 proxy 執行 git</p><p>git config --global http.proxy http://proxy.kmol.info:3128</p><p>以上的 git config 會將設定存入 Y:/home/.gitconfig 檔案中</p><p>刪除近端與遠端的 Git 分支.</p><p>To delete a local branch</p><p>git branch -D the_local_branch</p><p>To remove a remote branch</p><p>git push origin :the_remote_branch</p><p>or</p><p>git push origin --delete the_remote_branch</p><p><strong>把Onshape</strong><span><strong>吃下去，甚至學習做得更好吃</strong>_______胡椒</span></p><p><img src="/images/筆記.gif" width="600" height="338" alt=""></p>
+<h1>Lesson notes</h1>
+<p><strong>圖片網址的BUG:</strong></p>
+<p>原本的:</p>
+<p>page = [w.replace('/images/', './../images/') for w in page]<br>page = [w.replace('/downloads/', './../downloads/') for w in page]</p>
+<p>修改的:</p>
+<p>page = [w.replace('src="/images/', 'src="./../images/') for w in page]<br>page = [w.replace('href="/downloads/', 'href="./../downloads/') for w in page]</p>
+<p>對於頁面中的w進行更換，將 /images/ 換為 ./../images/ ，也就是<span>標籤的src 屬性</span><span>值是圖像文件的URL，引用該圖像的文件的絕對路徑或相對路徑，而URL 是指向站點內的文件。</span></p>
+<p>對於頁面中的w進行更換，將/downloads/ 換為 ./../downloads/，也就是<span>標籤的</span><span>href 是等號右邊用來放置要前往的連結網址，而download 屬性規定被下載的超鏈接目標。</span></p>
+<p>兩個都是以 content 為基準的相對目錄設定。</p>
+<hr>
+<p><strong>git 常用指令</strong></p>
+<p>git add .&nbsp; 新增所有改版內容</p>
+<p>git commit -m "提交訊息, 用來辨識版本" 在近端提交改版內容</p>
+<p>git push&nbsp; 將近端改版內容推送到遠端</p>
+<p>git pull&nbsp; 拉下遠端新版本內容, 在 fossil scm 使用 fossil update</p>
+<p>git log&nbsp; 查驗 git 提交推送紀錄</p>
+<p>git status&nbsp; 查驗狀態</p>
+<p>git 新增提交推送的身分綁定</p>
+<p>以 40623224@gm.nfu.edu.tw 註冊帳號為 40623224 為例:</p>
+<p>git config --global user.name "40623224"</p>
+<p>git config --global user.email "40623224@gm.nfu.edu.tw"</p>
+<p>若網路直接連線過慢, 可以透過 proxy 執行 git</p>
+<p>git config --global http.proxy http://proxy.kmol.info:3128</p>
+<p>以上的 git config 會將設定存入 Y:/home/.gitconfig 檔案中</p>
+<p>刪除近端與遠端的 Git 分支.</p>
+<p>To delete a local branch</p>
+<p>git branch -D the_local_branch</p>
+<p>To remove a remote branch</p>
+<p>git push origin :the_remote_branch</p>
+<p>or</p>
+<p>git push origin --delete the_remote_branch</p>
+<p><strong>把Onshape</strong><span><strong>吃下去，甚至學習做得更好吃</strong>_______胡椒</span></p>
+<p><img src="/images/筆記.gif" width="600" height="338" alt=""></p>
