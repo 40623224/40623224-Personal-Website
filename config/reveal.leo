@@ -447,14 +447,14 @@ make.start()
 
 3.增加零組件爆炸圖展示過程
 
-* [零件部分爆炸圖展示過程](https://youtu.be/PigXInnJzQo)</t>
+* [零件部分爆炸圖展示過程](https://youtu.be/PigXInnJzQo)
+
+</t>
 <t tx="leo.20181018220237.2">##  W16
 
 1.增加零件 BOM下載連結
 
 * [零組件下載連結最終版本](https://cad.onshape.com/documents/33f57d6f49b417896c80e2c7/w/0cd8abcf32893d42754458f2/e/9b00c66430df4f644fd2d6b8)
-
-版本:Onshape(可以自行利用Onshape轉換成其他畫圖軟體的檔案，例如:Solidworks)
 
 2.增加送球機構的初步構想Final version
 
@@ -464,6 +464,9 @@ make.start()
 
 * [final report](https://40623224.github.io/40623224-Personal-Website/downloads/report.pdf)
 
+4.送球機構模擬練習
+
+* [送球機構模擬練習](https://www.youtube.com/watch?v=WZnxXc6D3Bo&amp;feature=youtu.be)
 </t>
 <t tx="leo.20190531145645.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
