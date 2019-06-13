@@ -466,7 +466,8 @@ make.start()
 
 4.送球機構模擬練習
 
-* [送球機構模擬練習](https://www.youtube.com/watch?v=WZnxXc6D3Bo&amp;feature=youtu.be)
+* [送球機構模擬練習](https://www.youtube.com/watch?v=WZnxXc6D3Bo&amp;feature=youtu.be)、[human to human](https://www.youtube.com/watch?v=Hu7LFrP43tA&amp;feature=youtu.be)
+
 </t>
 <t tx="leo.20190531145645.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
